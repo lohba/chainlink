@@ -81,7 +81,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
@@ -94,7 +95,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
@@ -127,7 +129,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -5014,9 +5017,17 @@
     "name": "solc",
     "version": "0.6.6+commit.6c089d02.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "42": {
+      "events": {},
+      "links": {},
+      "address": "0xb24f915518f3fa0020F426B512A7b214e953DBBf",
+      "transactionHash": "0xc82c2b5357c0e2facb49e5e05ca8c38f25ef92c589729e881b112a362f8c040f"
+    }
+  },
   "schemaVersion": "3.3.4",
-  "updatedAt": "2021-05-10T13:27:51.585Z",
+  "updatedAt": "2021-05-11T18:11:58.371Z",
+  "networkType": "ethereum",
   "devdoc": {
     "details": "This contract is designed to work on multiple networks, including local test networks",
     "methods": {

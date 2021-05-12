@@ -23,7 +23,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.6.6+commit.6c089d02\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_priceFeed\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"getLatestPrice\",\"outputs\":[{\"internalType\":\"int256\",\"name\":\"\",\"type\":\"int256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{\"constructor\":\"Network: Kovan Aggregator: ETH/USD Address: 0x9326BFA02ADD2366b30bacB125260Af641031331\",\"getLatestPrice()\":{\"notice\":\"Returns the latest price\"}}}},\"settings\":{\"compilationTarget\":{\"/Users/lohba/Documents/Projects/chainlink/contracts/PriceConsumerV3.sol\":\"PriceConsumerV3\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/lohba/Documents/Projects/chainlink/contracts/PriceConsumerV3.sol\":{\"keccak256\":\"0x72f9c7487ab8576b50e8cfa7b042f04cd4a9dfb8887defd27d00252167ab500a\",\"urls\":[\"bzz-raw://4a40ad57056eddbe880ea9e80b3ce066bbb63b8e00eccf60564b64b79fba1666\",\"dweb:/ipfs/QmRUgU5616kTtAZZTWffb6JJBsZrwFhus9PKsJPhbAQN9n\"]},\"@chainlink/contracts/src/v0.6/interfaces/AggregatorV3Interface.sol\":{\"keccak256\":\"0x1862840d741dedb36e774534b877a13b5187555e3b78b8d2815f898b0dc02268\",\"urls\":[\"bzz-raw://64a15f4349aea6e60703f581a6280b71d6adb35ee74d2f3c4f130a2adc3efee3\",\"dweb:/ipfs/QmdVoSQvGfJNPnjQsAs7ZN3ueWghzTa72jSqzhGiQNDpkL\"]}},\"version\":1}",
@@ -933,9 +934,17 @@
     "name": "solc",
     "version": "0.6.6+commit.6c089d02.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "42": {
+      "events": {},
+      "links": {},
+      "address": "0x0D4737446Ab0D90B156056171549a4D628A85C7a",
+      "transactionHash": "0xe574fd10dc685c0baadd7673d2ab74aa7b03b6978858ce05cf916d7d931e646c"
+    }
+  },
   "schemaVersion": "3.3.4",
-  "updatedAt": "2021-05-10T13:27:51.587Z",
+  "updatedAt": "2021-05-11T18:12:34.778Z",
+  "networkType": "ethereum",
   "devdoc": {
     "methods": {}
   },
